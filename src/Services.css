@@ -1,0 +1,23 @@
+.services {
+  padding: 20px;
+}
+
+.services h2 {
+  font-size: 2em;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Utilizar flexbox para disposición horizontal */
+  justify-content: center; /* Centrar los elementos horizontalmente */
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.services li {
+  font-size: 1.2em;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
