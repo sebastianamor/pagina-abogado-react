@@ -3,7 +3,8 @@ import './App.css';
 import Header from './Header';
 import Services from './Services';
 import Contact from './Contact';
-import FloatingButton from './FloatingButton'; // Importa el nuevo componente
+import FloatingButton from './FloatingButton';
+import Map from './Map';
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
       <main>
         <Services />
         <Contact />
+        <Map />
       </main>
-      <FloatingButton /> {/* Agrega el botón flotante aquí */}
+      <FloatingButton />
     </div>
   );
 }
 
 export default App;
-
