@@ -1,0 +1,23 @@
+.footer {
+    background-color: #1655d3; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 30px;
+    text-align: left; /* Alinear el texto a la izquierda */
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 10 auto; /* Centrar el contenido horizontalmente */
+  }
+  
+  .footer h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  .footer p {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: left;
+  }
+  

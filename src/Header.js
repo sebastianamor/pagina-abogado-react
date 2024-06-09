@@ -7,11 +7,13 @@ function Header() {
     <header className="header">
       <div className="header-content">
         <div>
-          <h1>Toledo & Cia</h1>
+          <h1>Toledo & Cia
+          </h1>
           <p>Ofreciendo servicios legales de calidad</p>
         </div>
         <img src={profileImage} alt="Perfil" className="profile-image" />
       </div>
+      
     </header>
   );
 }
