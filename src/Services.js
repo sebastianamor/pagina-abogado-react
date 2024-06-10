@@ -10,7 +10,6 @@ function Services({onHomeClick}){
         <button>Representación en juicios</button>
         <button>Consultoría en derecho corporativo</button>
         <button>Redacción de contratos</button>
-        <button className="home-button" onClick={onHomeClick}>Inicio</button>
       </div>
     </section>
   );
