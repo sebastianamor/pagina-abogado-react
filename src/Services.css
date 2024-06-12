@@ -1,23 +1,32 @@
 .services {
   padding: 20px;
+  text-align: center;
 }
 
-.services h2 {
-  font-size: 2em;
+.service-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
-.services ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex; /* Utilizar flexbox para disposición horizontal */
-  justify-content: center; /* Centrar los elementos horizontalmente */
-  gap: 20px; /* Espacio entre los elementos */
-}
-
-.services li {
-  font-size: 1.2em;
-  margin: 10px 0;
+.service-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
   padding: 10px 20px;
-  background-color: #f0f0f0;
-  border-radius: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.service-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.service-message {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 20px;
 }

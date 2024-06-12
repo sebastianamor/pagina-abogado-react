@@ -1,14 +1,41 @@
+
 .home {
-    padding: 20px;
-  }
+  padding: 30px;
+}
+
+.home-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-imag {
+  padding-top: 600px;
+  width: 650px;
+  height: 700px;
   
-  .home h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .home p {
-    font-size: 1.2em;
-    line-height: 1.5;
-  }
-  
+}
+
+.home-text {
+  max-width: 600px;
+}
+
+.home-text h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-text p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.home-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.home-text li {
+  margin-bottom: 10px;
+  list-style-type: none
+}
