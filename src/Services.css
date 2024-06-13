@@ -30,3 +30,8 @@
   color: #333;
   margin-top: 20px;
 }
+
+.service-message li {
+  text-align: left;
+  list-style-type: none;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Services.css';
-
+import { FaBalanceScale } from "react-icons/fa";
 function Services() {
   const [message, setMessage] = useState('');
 
@@ -27,17 +27,29 @@ function Services() {
                 proporcionando una solución rápida y oportuna a sus problemas y necesidades.
                 Juicios de Arrendamiento </p>
                 <ul>
-                  <li>Prescripción de Deudas</li>
-                  <li>Precarios
+                  <li><FaBalanceScale /> Prescripción de Deudas</li>
+                  <li><FaBalanceScale /> Precarios
                   Cambio de nombre</li>
-                  <li>Cobro de Honorarios</li>
-                  <li>Indemnización de Perjuicios
+                  <li><FaBalanceScale /> Cobro de Honorarios</li>
+                  <li><FaBalanceScale /> Indemnización de Perjuicios
                       Responsabilidad Extracontractual</li>
-                      <li>Asesoría Inmobiliaria</li>
+                      <li><FaBalanceScale /> Asesoría Inmobiliaria</li>
                   </ul></div>
         break;
       case 'consultoria':
-        msg = 'Consultoría especializada en derecho corporativo';
+        msg = <div><p><h1>Derecho de Familia</h1></p>
+                  <p>En materia sobre derecho de Familia tendrás soluciones legales efectivas para problemas de
+                   familia. Nuestro equipo de abogados te acompaña, asesora y protege tus derechos en casos
+                   de deuda de pensión de alimentos, cuidado personal, divorcio, violencia intrafamiliar,
+                   adopciones y mucho más.</p>
+                   <ul>
+                    <li><FaBalanceScale /> Divorcios</li>
+                    <li><FaBalanceScale /> Alimentos</li>
+                    <li><FaBalanceScale /> Cuidado Personal</li>
+                    <li><FaBalanceScale /> Relación directa y regular</li>
+                    <li><FaBalanceScale /> Autorización de salida del país</li>
+                    <li><FaBalanceScale /> Violencia Intrafamiliar</li> 
+                    <li><FaBalanceScale /> Medidas de Protección</li></ul></div>;
         break;
       case 'redaccion':
         msg = <div><p><h1>Derecho Laboral</h1></p>
@@ -54,12 +66,12 @@ function Services() {
                   subcontratistas y propietarios en proyectos relativos a estas materias, identificando y
                   mitigando riesgos y responsabilidades legales asociadas.</p>
                   <ul>
-                    <li>Asesoría Laboral a Empresas</li>
-                    <li>cobranza laboral y previsional</li>
-                    <li>Abogados Trabajadores</li>
-                    <li>Despido injustificado</li>
-                    <li>Accidente laboral y enfermedad Profesional</li>
-                    <li>Tutela Laboral</li></ul></div>
+                    <li><FaBalanceScale /> Asesoría Laboral a Empresas</li>
+                    <li><FaBalanceScale /> cobranza laboral y previsional</li>
+                    <li><FaBalanceScale /> Abogados Trabajadores</li>
+                    <li><FaBalanceScale /> Despido injustificado</li>
+                    <li><FaBalanceScale /> Accidente laboral y enfermedad Profesional</li>
+                    <li><FaBalanceScale /> Tutela Laboral</li></ul></div>
         break;
       default:
         msg = '';

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import profileImag from './imagenes/toledo.jpg'; // Asegúrate de tener una imagen en esta ruta
+import { FcDiploma1 } from "react-icons/fc";
 
 function Home() {
   return (
@@ -24,25 +25,25 @@ function Home() {
       <div><h2>Defensor Penal</h2>
       <h1>Abogado Miguel Toledo</h1></div>
           <ul>
-          <li>Defensor Penal</li>
-          <li>Abogado Colegiado</li>
+          <li><FcDiploma1 /> Defensor Penal</li>
+          <li><FcDiploma1 /> Abogado Colegiado</li>
 
-<li>Director Académico del Centro de Capacitación "Academia Internacional de Litigación"</li>
-<li>Curso internacional de litigación sobre técnicas avanzadas del contraexamne,  California Western School Of Law, de EE.UU.</li>
-<li>Certificado por la alianza interamericana de Abogacía oral de EE.UU.</li>
-<li>Curso Criminalistica, Certificado por Criminalistic and Applied Criminology International Academy del Perú.</li>
-<li>Certificación de la Asociación Chile de Seguridad (ACHS) como relator de Responsabilidad Legal.</li>
-<li>Diplomado de Litigación Derecho de Familia de la Pontificia Universidad Católica de Chile.</li>
-<li>Diplomado de Litigación de Derecho Penal de la Pontificia Universidad Católica de Chile.</li>
-<li>Diplomado de Litigación Delitos Tributarios de la Pontifica Universidad Católica de Chile.</li>
-<li>Taller Internacional de Destreza en Litigación Oral, de la Alianza Interamericana de Abogacía Oral de EE.UU.</li>
-<li>Taller de Preparación de los Testigos, de la Alianza Interamericana de Abogacía Oral de EE.UU.</li>
-<li>Taller de la Teroría del Caso de la Alianza Interamericana de Abogacía Oral de EE.UU.</li>
-<li>Taller de Habilidades a la Hora de Litigar, de la Alianza Interamericana de Abogacía Oral EE.UU.</li>
-<li>Diplomado Derecho Penal Universidad Pompeu Fabra, De España.</li>
-<li>Diplomado Abuso Sexual y Violencia Habitual Infante Juvenil U.A.</li>
-<li>C. Magister En Derecho Penal Universidad de Talca.</li>
-<li>Magister en Ciencias Penales Universidad Pompe Fabra, De España.</li>
+<li><FcDiploma1 /> Director Académico del Centro de Capacitación "Academia Internacional de Litigación"</li>
+<li><FcDiploma1 /> Curso internacional de litigación sobre técnicas avanzadas del contraexamne,  California Western School Of Law, de EE.UU.</li>
+<li><FcDiploma1 /> Certificado por la alianza interamericana de Abogacía oral de EE.UU.</li>
+<li><FcDiploma1 /> Curso Criminalistica, Certificado por Criminalistic and Applied Criminology International Academy del Perú.</li>
+<li><FcDiploma1 /> Certificación de la Asociación Chile de Seguridad (ACHS) como relator de Responsabilidad Legal.</li>
+<li><FcDiploma1 /> Diplomado de Litigación Derecho de Familia de la Pontificia Universidad Católica de Chile.</li>
+<li><FcDiploma1 /> Diplomado de Litigación de Derecho Penal de la Pontificia Universidad Católica de Chile.</li>
+<li><FcDiploma1 /> Diplomado de Litigación Delitos Tributarios de la Pontifica Universidad Católica de Chile.</li>
+<li><FcDiploma1 /> Taller Internacional de Destreza en Litigación Oral, de la Alianza Interamericana de Abogacía Oral de EE.UU.</li>
+<li><FcDiploma1 /> Taller de Preparación de los Testigos, de la Alianza Interamericana de Abogacía Oral de EE.UU.</li>
+<li><FcDiploma1 /> Taller de la Teroría del Caso de la Alianza Interamericana de Abogacía Oral de EE.UU.</li>
+<li><FcDiploma1 /> Taller de Habilidades a la Hora de Litigar, de la Alianza Interamericana de Abogacía Oral EE.UU.</li>
+<li><FcDiploma1 /> Diplomado Derecho Penal Universidad Pompeu Fabra, De España.</li>
+<li><FcDiploma1 /> Diplomado Abuso Sexual y Violencia Habitual Infante Juvenil U.A.</li>
+<li><FcDiploma1 /> C. Magister En Derecho Penal Universidad de Talca.</li>
+<li><FcDiploma1 /> Magister en Ciencias Penales Universidad Pompe Fabra, De España.</li>
           </ul>
           <p>
           </p>

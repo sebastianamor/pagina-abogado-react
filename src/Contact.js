@@ -1,26 +1,21 @@
 import React from 'react';
 import './Contact.css';
+import { FcPhone } from "react-icons/fc";
+import { FcAddressBook } from "react-icons/fc";
 
 function Contact() {
   return (
-    <section className="contact">
-      <h2>Contacto</h2>
-      <form>
-        <div>
-          <label>Nombre:</label>
-          <input type="text" name="name" required />
-        </div>
-        <div>
-          <label>Email:</label>
-          <input type="email" name="email" required />
-        </div>
-        <div>
-          <label>Mensaje:</label>
-          <textarea name="message" required></textarea>
-        </div>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
+    <form class="form">
+  <h2>CONTÁCTENOS</h2>
+  <p type="Nombre:"><input placeholder="ingrese su nombre.."></input></p>
+  <p type="Email:"><input placeholder="por favor ingrese su email.."></input></p>
+  <p type="Mensaje:"><input placeholder="escriba su consulta.."></input></p>
+  <button>enviar</button>
+  <div class="c1" >
+    <span class="fa fa-phone"></span><FcPhone /> +569 92930308:
+    <span class="fa fa-envelope-o"></span> <FcAddressBook /> mgtoledo@uc.cl 
+  </div>
+</form>
   );
 }
 
