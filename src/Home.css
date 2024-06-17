@@ -3,13 +3,23 @@
   padding: 30px;
 }
 
+
+.inicio {
+padding: 100 ;
+text-align: start;
+
+  
+}
+
 .home-content {
   display: flex;
   align-items: flex-start;
 }
 
+
+
 .profile-imag {
-  padding-top: 600px;
+  padding-top: 100px;
   width: 650px;
   height: 700px;
   

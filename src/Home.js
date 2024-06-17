@@ -1,15 +1,13 @@
 import React from 'react';
 import './Home.css';
-import profileImag from './imagenes/toledo.jpg'; // Asegúrate de tener una imagen en esta ruta
+import profileImag from './imagenes/toledo.jpg';
+// Asegúrate de tener una imagen en esta ruta
 import { FcDiploma1 } from "react-icons/fc";
 
 function Home() {
   return (
     <section className="home">
-      <div className="home-content">
-        <img src={profileImag} alt="Perfil" className="profile-imag" />
-        <div className="home-text">
-        <h2>Inicio</h2>
+       <h2>Inicio</h2>
       <p>
         Somos un Estudio Jurídico especialista principalmente en el Área de Derecho Penal, pero contamos
         con diversos asociados especializados en Familia e Infancia, Responsabilidad Penal Adolescente,
@@ -22,6 +20,12 @@ function Home() {
         cada uno de nuestros clientes.
       </p>
       <hr></hr>
+      <div className="home-content">
+        <img src={profileImag} alt="Perfil" className="profile-imag" />
+        <div className="home-text">
+          <div className="inicio" >
+       
+      </div>
       <div><h2>Defensor Penal</h2>
       <h1>Abogado Miguel Toledo</h1></div>
           <ul>
