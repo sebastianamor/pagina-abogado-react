@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
 import profileImag from './imagenes/toledo.jpg';
+import franLizama from './imagenes/franlizama.jpg';
+import ale from './imagenes/ale reyes.jpg';
+
 // Asegúrate de tener una imagen en esta ruta
 import { FcDiploma1 } from "react-icons/fc";
 
@@ -20,11 +23,10 @@ function Home() {
         cada uno de nuestros clientes.
       </p>
       <hr></hr>
-      <div className="home-content">
-        <img src={profileImag} alt="Perfil" className="profile-imag" />
+      <div className="home-item">
+        <img src={profileImag} alt="Perfil" className="profile-image" />
         <div className="home-text">
           <div className="inicio" >
-       
       </div>
       <div><h2>Defensor Penal</h2>
       <h1>Abogado Miguel Toledo</h1></div>
@@ -49,10 +51,52 @@ function Home() {
 <li><FcDiploma1 /> C. Magister En Derecho Penal Universidad de Talca.</li>
 <li><FcDiploma1 /> Magister en Ciencias Penales Universidad Pompe Fabra, De España.</li>
           </ul>
+          </div>
+          <hr></hr>
+          <div className="home-item">
+          <img src={franLizama} alt="Perfil 2" className="profile-image" />
+          <div className="home-text"></div>
           <p>
+            <h2>Francisco Eduardo Lizama Acevedo (Abogado Asociado)</h2>
+              <p>Abogado por la Excelentísima Corte Suprema</p>
+             <h1>Antecedentes Académicos</h1>
+             <p>Diplomado en Derecho Penal Sustantivo por la Universidad de Talca.
+                Magíster en Derecho Penal Universidad de Talca
+                Magíster en Derecho Penal Universitat Pompeau Fabra de España</p>
+              <h1>Antecedentes Laborales</h1>
+              <p>
+                <ul>
+              <li>-Tramitación y alegatos ante la Excelentísima Corte Suprema e Ilustrísima Corte de
+               Apelaciones de Santiago.</li>
+              <li>- Tramitación de causas penales tanto en calidad de querellante como de defensor, en
+              todo tipo de procedimientos: Juicios ordinarios, procedimientos abreviados, juicios
+              simplificados, audiencias de control de detención.</li>
+              <li>- Tramitación de causas civiles, procedimientos ordinarios, sumarios, cobranzas
+              Judiciales y tercerías.</li>
+              <li>- Tramitación de causas de policía local, especializándose en accidentes de tránsito y
+              asuntos de OS10</li>
+              <li>-Oficial 4º grado XVI en el Juzgado de Garantía de Coquimbo.</li>
+              </ul> </p>
           </p>
+          <div className="home-item">
+        <img src={ale} alt="Perfil 2" className="profile-image" />
+        <div className="home-text">
+          <h2>Sra. Alejandra Reyes López 
+            (Jefa Departamento de Peritaje )</h2>
+          <h1>Psicóloga Clínica Perito Forense</h1>
+          <p>
+            Ofrecemos una amplia gama de servicios legales para satisfacer las necesidades de nuestros clientes:
+          </p>
+          <ul>
+            <li>Asesoría legal</li>
+            <li>Representación en juicios</li>
+            <li>Consultoría en derecho corporativo</li>
+            <li>Redacción de contratos</li>
+          </ul>
         </div>
-      </div>
+          </div>
+        </div>
+       </div>
     </section>
   );
 }

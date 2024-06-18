@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import profileImage from './imagenes/logo emp.jpg'; // Ajusta la ruta según la ubicación de tu imagen
+import profileImag from './imagenes/logo emp.jpg'; // Ajusta la ruta según la ubicación de tu imagen
 
 function Header() {
   return (
@@ -11,7 +11,7 @@ function Header() {
           </h1>
           <p>Ofreciendo servicios legales de calidad</p>
         </div>
-        <img src={profileImage} alt="Perfil" className="profile-image" />
+        <img src={profileImag} alt="Perfil" className="profile-imag" />
       </div>
       
     </header>
