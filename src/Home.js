@@ -3,8 +3,9 @@ import './Home.css';
 import profileImag from './imagenes/toledo.jpg';
 import franLizama from './imagenes/franlizama.jpg';
 import ale from './imagenes/ale reyes.jpg';
+import nico from './imagenes/nicoleiba.jpg';
+import firma from './imagenes/firma.jpg';
 
-// Asegúrate de tener una imagen en esta ruta
 import { FcDiploma1 } from "react-icons/fc";
 
 function Home() {
@@ -24,7 +25,8 @@ function Home() {
       </p>
       <hr></hr>
       <div className="home-item">
-        <img src={profileImag} alt="Perfil" className="profile-image" />
+        <img src={profileImag} alt="Perfil" className="profile-toledo" />
+        <img src={firma} alt="firm" className="profile" />
         <div className="home-text">
           <div className="inicio" >
       </div>
@@ -52,6 +54,7 @@ function Home() {
 <li><FcDiploma1 /> Magister en Ciencias Penales Universidad Pompe Fabra, De España.</li>
           </ul>
           </div>
+          </div>
           <hr></hr>
           <div className="home-item">
           <img src={franLizama} alt="Perfil 2" className="profile-image" />
@@ -78,25 +81,95 @@ function Home() {
               <li>-Oficial 4º grado XVI en el Juzgado de Garantía de Coquimbo.</li>
               </ul> </p>
           </p>
+          </div>
+          <hr></hr>
           <div className="home-item">
         <img src={ale} alt="Perfil 2" className="profile-image" />
-        <div className="home-text">
+        <div className="home-text"></div>
+        <p>
           <h2>Sra. Alejandra Reyes López 
             (Jefa Departamento de Peritaje )</h2>
           <h1>Psicóloga Clínica Perito Forense</h1>
+          <h1>Antecedentes Académicos</h1>
           <p>
-            Ofrecemos una amplia gama de servicios legales para satisfacer las necesidades de nuestros clientes:
+          Psicóloga Universidad Diego Portales
+          Diplomado en Psicología Jurídica Especialidad Perito Forense de la Pontificia
+          Universidad Católica de Chile
           </p>
+          <h1>Antecedentes profesionales</h1>
           <ul>
-            <li>Asesoría legal</li>
-            <li>Representación en juicios</li>
-            <li>Consultoría en derecho corporativo</li>
-            <li>Redacción de contratos</li>
+         <li> Psicóloga Clínica Perito Forense con más de 30 años de experiencia.
+Centro para el Desarrollo Humano.  Consulta Psicológica</li>
+<li>- Directora</li>
+<li>- Psicodiagnósticos Adultos y Adolescentes</li>
+<li>- Peritajes psicológicos forenses en los ámbitos de Tribunales de Familia, Garantía,
+Laborales y de Juicio Oral en lo Penal.</li>
+<li> <h1> Centro cultural San Antonio </h1> </li>
+<li>2009- a 2016 Centro de Apoyo al Niño y la Familia-Sename, Programa de
+Intervención Especializada PIE San Antonio, San Antonio, Región de Valparaíso.</li>
+<li>- Directora Centro de atención a niños, niñas y adolescentes que presentan conductas
+transgresoras y/o violentas, así como de aquellos que han tenido conductas
+transgresoras en la esfera sexual.</li>
+<li>- A cargo del diseño, ejecución y evaluación de estrategias de intervención en el ámbito
+de la reparación a nivel individual, familiar y socio-comunitario.</li>
+<li>- A cargo de la conducción de un equipo profesional multidisciplinario</li>
+<li>- A cargo de la construcción y el fortalecimiento de la red interinstitucional asociada a
+los ámbitos de derechos de los niños, niñas y adolescentes, así como al ámbito socio-
+jurídico.
+2005 a 2007 Hospital Claudio Vicuña, Servicio de Salud Valparaíso San Antonio</li>
+<li>- Jefa Unidad de Salud Mental</li>
+<li>- A cargo de la conducción de un equipo profesional interdisciplinario.</li>
+<li>- A cargo del diseño, ejecución y evaluación de modelos de intervención destinados al
+funcionamiento.</li>
+<li>- Psicóloga: Psicoterapia Individual y Grupal para pacientes con diagnóstico de
+Trastornos Psiquiátricos Severos y Residuales Compensados. Psicodiagnóstico Clínico
+Diferencial.
+1998 a 2004 Consultorio de Atención Primaria San Antonio, San Antonio V
+Región.</li>
+<li>- Psicoterapia individual Infanto-Juvenil.
+ 1995-2003 Arcadia Ltda.</li>
+<li>- Directora de la institución dedicada al diseño y ejecución de programas de
+intervención psicosocial.</li>
+<li>- Psicóloga programas Desarrollo Juvenil y Encuentro Joven, de financiamiento
+FOSIS y destinado al fortalecimiento de las habilidades organizaciones y la
+participación juvenil organizada en sectores populares de la Provincia de San Antonio.</li>
+<li>- Psicóloga programa Casa Taller, de financiamiento SENAME1994 a 1998
+Municipalidad de San ANTONIO, V Región Psicóloga Oficina Comunal de la
+Mujer</li>
+<li> Atención Psicoterapéutica a Mujeres que viven Relaciones de Violencia. Talleres
+terapéuticos y psicoeducativas para mujeres que viven relaciones de violencia.
+1992-1996 Consejo de Defensa del Niño CAD Juan Mackenna</li>
+<li>- Atención de casos de niños, niñas, adolescentes y sus familias, en condiciones de alto
+riesgo biopsicosocial.
+Asesoría Organizacional y de Recursos Humanos</li>
+
+<li>2014    supervisora de Práctica Alumna Psicología Universidad Andrés Bello
+Valparaíso</li>
+<li>2005 Supervisora de Práctica y Tesis de Alumnos de Orientación Familiar (2) de la
+Universidad de Los Lagos. Centro de Salud Tierra</li>
+<li>2004 Supervisora de Práctica Alumnas (2) de Psicología Universidad Arcis. Consultorio
+de Atención Primaria San Antonio</li>
+<li>2001 Supervisora de Práctica Alumna de Psicología Universidad de Valparaíso.
+Consultorio de Atención Primaria San Antonio.</li>
+<li>1999 Supervisora de Práctica Alumna de Sociología de la Universidad de Chile.
+Arcadia Ltda.</li>
+<li>1992 Supervisora de Práctica Alumnos de psicología de la Universidad de Chile.</li>
           </ul>
-        </div>
+          
+          </p>
           </div>
-        </div>
-       </div>
+          <hr></hr>
+          <div className="home-item">
+        <img src={nico} alt="Perfil" className="profile-image" />
+        <div className="home-text">
+          <div className="inicio" ></div>
+          <p>
+            <h2>Nicole Andrea Ibáñez</h2>
+            <h1> (Administradora y Coordinadora de Causas)</h1>
+            <h1><FcDiploma1 />  Ingeniera Comercial</h1>
+          </p>
+          </div>
+          </div>
     </section>
   );
 }
