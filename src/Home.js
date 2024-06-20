@@ -12,7 +12,7 @@ function Home() {
   return (
     <section className="home">
        <h2>Inicio</h2>
-      <p>
+      <p className='iniciopag'>
         Somos un Estudio Jurídico especialista principalmente en el Área de Derecho Penal, pero contamos
         con diversos asociados especializados en Familia e Infancia, Responsabilidad Penal Adolescente,
         Derecho Civil y del Trabajo. Y para lograr las mejores soluciones legales, estos han sido formados
