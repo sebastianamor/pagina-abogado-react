@@ -13,7 +13,7 @@ function Contact() {
   <button>enviar</button>
   <div class="c1" >
     <span class="fa fa-phone"></span><FcPhone /> +569 92930308:
-    <span class="fa fa-envelope-o"></span> <FcAddressBook /> mgtoledo@uc.cl 
+    <span class="fa fa-envelope-o"></span> <FcAddressBook />  dppjtoledo@gmail.com
   </div>
 </form>
   );

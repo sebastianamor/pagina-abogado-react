@@ -17,14 +17,14 @@ function Footer() {
         </div>
         <div>
       <a href="https://jp.linkedin.com/in/sebastian-jacob-moreira-vergara-7b76717a" target="_blank" rel="noopener noreferrer" className="firma" >
-        moreiratek< FaLinkedin icon={FaLinkedin}  className="firma" />
+      Desarrollador moreiratek< FaLinkedin icon={FaLinkedin}  className="firma" />
       </a>
     </div>
         <div className="contact-info">
           <h3>Contacto</h3>
           <ul>
             <li><FcPhone /> +569 92930308:</li>
-            <li> <FcAddressBook /> mgtoledo@uc.cl </li>
+            <li> <FcAddressBook /> dppjtoledo@gmail.com </li>
             <li><FcDepartment /> Huérfano N°1147, Of.1025, Santiago Centro, Chile</li>
           </ul>
         </div>
