@@ -35,3 +35,13 @@
   text-align: left;
   list-style-type: none;
 }
+
+.civ{
+  width: 400px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.civ:hover{
+  transform: scale(1.2);
+}

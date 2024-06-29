@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './Services.css';
 import { FaBalanceScale } from "react-icons/fa";
+import civil from './imagenes/civil.jpeg'
+import familia from './imagenes/familia.jpeg'
+import laboral from './imagenes/laboral.jpeg'
+import penal from './imagenes/penal.jpeg'
+
 function Services() {
   const [message, setMessage] = useState('');
 
@@ -8,7 +13,7 @@ function Services() {
     let msg = '';
     switch (service) {
       case 'asesoria':
-      msg = <div><p><h1>Derecho Penal</h1></p>
+        msg = <div><p>  <h1>Derecho Penal</h1> </p>
             <p>Dppj se especializa en litigios de alta complejidad a nivel nacional e internacional. El estudio
                otorga asesoría especializada en delitos económicos, tributarios, violaciones a leyes anti-
                corrupción, lavado de activos, e infracciones a leyes de propiedad industrial e intelectual, entre
@@ -83,10 +88,10 @@ function Services() {
     <section className="services">
       <h2>Servicios</h2>
       <div className="service-buttons">
-        <button onClick={() => handleButtonClick('asesoria')}>Derecho Penal</button>
-        <button onClick={() => handleButtonClick('representacion')}>Derecho Civil</button>
-        <button onClick={() => handleButtonClick('consultoria')}>Derecho de Familia</button>
-        <button onClick={() => handleButtonClick('redaccion')}>Derecho Laboral</button>
+        <button onClick={() => handleButtonClick('asesoria')}> <img src={penal} alt="civ" className="civ"/>   Derecho Penal</button>
+        <button onClick={() => handleButtonClick('representacion')}> <img src={civil} alt="civ" className="civ"/>  Derecho Civil </button>
+        <button onClick={() => handleButtonClick('consultoria')}> <img src={familia} alt="civ" className="civ"/>  Derecho de Familia</button>
+        <button onClick={() => handleButtonClick('redaccion')}> <img src={laboral} alt="civ" className="civ"/> Derecho Laboral</button>
       </div>
       {message && <p className="service-message">{message}</p>}
     </section>
