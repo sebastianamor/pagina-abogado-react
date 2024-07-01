@@ -9,6 +9,8 @@ function NavBar({ onSelect }) {
         <li><button onClick={() => onSelect('services')}>Servicios</button></li>
         <li><button onClick={() => onSelect('contact')}>Contacto</button></li>
         <li><button onClick={() => onSelect('location')}>Ubicación</button></li>
+        <li><button onClick={() => onSelect('blog')}>Blog</button></li>
+
       </ul>
     </nav>
   );

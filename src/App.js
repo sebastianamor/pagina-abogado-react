@@ -7,6 +7,7 @@ import Services from './Services';
 import Contact from './Contact';
 import Map from './Map';
 import Footer from './Footer';
+import Blog from './Blog';
 import FloatingButton from './FloatingButton';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         {selectedSection === 'services' && <Services />}
         {selectedSection === 'contact' && <Contact />}
         {selectedSection === 'location' && <Map />}
+        {selectedSection === 'blog' && <Blog />}
       </main>
       <Footer />
       <FloatingButton />
