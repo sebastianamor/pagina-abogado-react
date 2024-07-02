@@ -4,7 +4,7 @@ import { FcPhone } from "react-icons/fc";
 import { FcAddressBook } from "react-icons/fc";
 import { FcDepartment } from "react-icons/fc";
 import { FaLinkedin } from "react-icons/fa6";
-import { LuFileX2 } from 'react-icons/lu';
+
 import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
