@@ -31,8 +31,8 @@ function Footer() {
         <div className="contact-info">
           <h3>Contacto</h3>
           <ul>
-            <li><FcPhone /> +569 92930308:</li>
-            <li> <FcAddressBook /> dppjtoledo@gmail.com </li>
+            <li><FcPhone /> +56 9 9293 0308 </li>
+            <li> <FcAddressBook /> ibanez@dppjtoledoycia.cl </li>
             <li><FcDepartment /> Huérfano N°1147, Of.1025, Santiago Centro, Chile</li>
           </ul>
         </div>
