@@ -9,7 +9,7 @@ function Header() {
         <div>
           <h1> Dppj y Toledo & Cia
           </h1>
-          <p><h2>Estudio jurídico </h2></p>
+          <p><h2>Estudio jurídico</h2></p>
         </div>
         <img src={profileImag} alt="Perfil" className="profile-imag" />
       </div>
