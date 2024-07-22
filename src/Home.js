@@ -24,12 +24,14 @@ function Home() {
         cada uno de nuestros clientes.
       </p>
       <hr></hr>
+      <div>
       <div className="home-item">
         <img src={profileImag} alt="Perfil" className="profile-toledo" />
         <img src={firma} alt="firm" className="profile" />
         <div className="home-text">
           <div className="inicio" >
       </div>
+    
       <div><h2>Defensor Penal</h2>
       <h1>Abogado Miguel Toledo</h1></div>
           <ul>
@@ -55,6 +57,7 @@ function Home() {
           </ul>
           </div>
           </div>
+        </div>
           <hr></hr>
           <div className="home-item">
           <img src={franLizama} alt="Perfil 2" className="profile-image" />

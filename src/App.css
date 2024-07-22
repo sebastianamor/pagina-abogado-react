@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
 body {
   font-style: "Noto Sans", sans-serif;;
 }
@@ -9,5 +20,5 @@ body {
 }
 
 main {
-  padding: 20px;
+  padding: 100px;
 }

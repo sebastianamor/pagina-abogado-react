@@ -1,9 +1,20 @@
-.blog {
-    padding: 20px;
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+
+}
+
+ .blog {
+    padding: -10px;
     text-align: center;
   }
   
   .blog h2 {
     font-size: 2em;
     margin-bottom: 20px;
-  }
+  } 

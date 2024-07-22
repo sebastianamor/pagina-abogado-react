@@ -7,8 +7,8 @@ function Blog() {
       <iframe
         title="blog"
         src="https://abogadomigueltoledo.blogspot.com/?m=1"
-        width="1200"
-        height="450"
+        width="450"
+        height="500"
         style={{ border: 0 }}
         allowFullScreen=""
         loading="lazy"

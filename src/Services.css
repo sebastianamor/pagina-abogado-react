@@ -1,3 +1,15 @@
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
 .services {
   padding: 20px;
   text-align: center;
@@ -6,8 +18,8 @@
 .service-buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 .service-buttons button {
@@ -37,7 +49,7 @@
 }
 
 .civ{
-  width: 400px;
+  width: 100px;
   height: 300px;
   transition: 0.5s;
 }
