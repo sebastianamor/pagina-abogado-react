@@ -1,15 +1,4 @@
 
-.column {
-  width: 100%;
-}
-
-@media (min-width: 600px) {
-  .column {
-    width: 50%;
-  }
-}
-
-
 .services {
   padding: 20px;
   text-align: center;
@@ -19,7 +8,7 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .service-buttons button {
@@ -49,7 +38,7 @@
 }
 
 .civ{
-  width: 100px;
+  width: 300px;
   height: 300px;
   transition: 0.5s;
 }
@@ -57,3 +46,35 @@
 .civ:hover{
   transform: scale(1.2);
 }
+
+
+@media (max-width: 768px) {
+  .service-buttons button {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-buttons button {
+    padding: 0.5rem;
+  }
+
+  .service-buttons img {
+    max-width: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .profile-image {
+    max-width: 150px;
+  }
+
+  .home-text {
+    margin-left: 20px;
+    text-align: left;
+  }}

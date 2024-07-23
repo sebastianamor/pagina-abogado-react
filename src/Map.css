@@ -1,9 +1,21 @@
+@media (max-width: 100px) {
+  .map-iframe {
+    height: 10px;
+  }
+}
+
+.map-iframe {
+  height: 10px;
+  align-items: center;
+}
+
 .map {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .map h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
+  padding: 20px;
+  text-align: center;
+}
+
+.map h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}

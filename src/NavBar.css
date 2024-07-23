@@ -1,12 +1,4 @@
-.column {
-  width: 100%;
-}
 
-@media (min-width: 600px) {
-  .column {
-    width: 50%;
-  }
-}
 
 
 
@@ -44,3 +36,20 @@
     border-radius: 5px;
   }
   
+
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .toggle-button {
+      display: block;
+    }
+  }

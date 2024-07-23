@@ -7,18 +7,20 @@
 
 @media (min-width: 600px) {
   .column {
-    width: 50%;
-  }
-}
-
+    width: 50px;
+ 
 body {
   font-style: "Noto Sans", sans-serif;;
 }
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  width: 2000px;
 }
 
 main {
-  padding: 100px;
+  padding: 200px;
+}
+
+}
 }
