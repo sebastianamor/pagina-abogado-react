@@ -7,10 +7,12 @@
 
 @media (min-width: 600px) {
   .column {
-    width: 50px;
- 
+    width: 100%;
+  
+  
 body {
   font-style: "Noto Sans", sans-serif;;
+  width: fit-content;
 }
 .App {
   text-align: center;
@@ -19,8 +21,7 @@ body {
 }
 
 main {
-  padding: 200px;
+  padding: 300px;
 }
 
-}
-}
+}}

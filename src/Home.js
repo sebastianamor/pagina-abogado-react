@@ -29,12 +29,20 @@ function Home() {
         <img src={profileImag} alt="Perfil" className="profile-toledo" />
         <img src={firma} alt="firm" className="profile" />
         <div className="home-text">
+          
+          </div>
+          </div>
+        </div>
+
+        <div>
+      <div className="home-item">
+        
+        <div className="home-text">
           <div className="inicio" >
       </div>
-    
       <div><h2>Defensor Penal</h2>
       <h1>Abogado Miguel Toledo</h1></div>
-          <ul   >
+      <ul   >
           <li><FcDiploma1 /> Defensor Penal</li>
           <li><FcDiploma1 /> Abogado Colegiado</li>
 
@@ -55,9 +63,13 @@ function Home() {
 <li><FcDiploma1 /> C. Magister En Derecho Penal Universidad de Talca.</li>
 <li><FcDiploma1 /> Magister en Ciencias Penales Universidad Pompe Fabra, De España.</li>
           </ul>
+     
           </div>
           </div>
         </div>
+         
+
+
         
           <hr></hr>
           <div className="home-item">

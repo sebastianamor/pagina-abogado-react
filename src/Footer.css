@@ -5,9 +5,9 @@
 @media (min-width: 600px) {
   .column {
     width: 50%;
+    
   }
 }
-
 
 .footer {
   background-color: #255ac4;

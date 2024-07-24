@@ -11,11 +11,15 @@
     padding: -10px;
     text-align: center;
   }
-  
+}
+  .blog  {
+    
+    margin-bottom: 20px;
+  } 
   .blog h2 {
     font-size: 2em;
     margin-bottom: 20px;
   } 
 }
 
-}
+

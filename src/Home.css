@@ -4,10 +4,12 @@
   width: 100%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   .column {
     width: 50%;
   }
+
+
 }
 
 
@@ -37,15 +39,16 @@ body {
 
 .profile-toledo {
   width: 250px;
-  height: 250px;
+  height: 550px;
   object-fit: cover;
   margin-right: 10px;
+  margin-bottom: 200px;
   
 }
 
 .profile {
   width: 250px;
-  height: 200px;
+  height: 550px;
   object-fit: cover;
   justify-content: left;
 }
