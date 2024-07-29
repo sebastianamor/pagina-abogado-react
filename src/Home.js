@@ -5,7 +5,7 @@ import franLizama from './imagenes/franlizama.jpg';
 import ale from './imagenes/ale reyes.jpg';
 import nico from './imagenes/nicoleiba.jpg';
 import firma from './imagenes/firma.jpg';
-
+import colegio from './imagenes/colegio.jpg';
 import { FcDiploma1 } from "react-icons/fc";
 
 function Home() {
@@ -29,14 +29,22 @@ function Home() {
         <img src={profileImag} alt="Perfil" className="profile-toledo" />
         <img src={firma} alt="firm" className="profile" />
         <div className="home-text">
-          
+          </div>
+          </div>
+        </div>
+      <div>
+      <div className="home-item">
+        <img src={colegio} alt="Perfil" className="colegio-a"/>
+        <div className="home-text">
           </div>
           </div>
         </div>
 
+
+
+
         <div>
       <div className="home-item">
-        
         <div className="home-text">
           <div className="inicio" >
       </div>
@@ -67,10 +75,6 @@ function Home() {
           </div>
           </div>
         </div>
-         
-
-
-        
           <hr></hr>
           <div className="home-item">
           <img src={franLizama} alt="Perfil 2" className="profile-image" />
