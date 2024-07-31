@@ -24,7 +24,7 @@ function Footer() {
       </a>
         </div>
         <div>
-      <a href="https://jp.linkedin.com/in/sebastian-jacob-moreira-vergara-7b76717a" target="_blank" rel="noopener noreferrer" className="firma"  >
+      <a href="https://jp.linkedin.com/in/sebastian-jacob-moreira-vergara-7b76717a" target="_blank" rel="noopener noreferrer" className="firma-s"  >
       Desarrollador moreiratek< FaLinkedin icon={FaLinkedin}  className="firma" />
       </a>
     </div>

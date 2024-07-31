@@ -25,7 +25,11 @@ body {
 .iniciopag{
   background-size: 1500px;
   background-position: center;
-  font-size: xx-large; 
+  font-size: medium; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px 65px 30px 60px;
+  
   
 }
 

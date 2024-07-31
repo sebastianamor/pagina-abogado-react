@@ -28,6 +28,7 @@
 
 .about, .contact-info {
   max-width: 45%;
+  font-size: small;
 }
 
 .footer h3 {
@@ -38,6 +39,7 @@
 .footer p, .footer ul {
   font-size: 1em;
   line-height: 1.5;
+  padding-right: 60px;
 }
 
 .contact-info ul {
@@ -47,4 +49,8 @@
 
 .contact-info li {
   margin-bottom: 10px;
+}
+
+.firma-s {
+  font-size: x-small;
 }
