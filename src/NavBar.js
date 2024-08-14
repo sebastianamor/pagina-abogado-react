@@ -10,9 +10,7 @@ function NavBar({ onSelect }) {
 
   return (
     <nav className="navbar">
-      <button className="toggle-button" onClick={toggleMenu}>
-        ☰
-      </button>
+      
       <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <li><button onClick={() => onSelect('home')}>Inicio</button></li>
         <li><button onClick={() => onSelect('services')}>Servicios</button></li>
@@ -20,6 +18,7 @@ function NavBar({ onSelect }) {
         <li><button onClick={() => onSelect('location')}>Ubicación</button></li>
         <li><button onClick={() => onSelect('blog')}>Blog</button></li>
       </ul>
+      
     </nav>
   );
 }
