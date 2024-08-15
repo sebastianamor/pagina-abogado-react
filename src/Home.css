@@ -8,81 +8,89 @@
   .column {
     width: 50%;
   }
-
-
 }
 
-
 body {
-  font-style: "Noto Sans", sans-serif;;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .home {
   padding: 20px;
 }
 
-
-.iniciopag{
-  background-size: 1300px;
+.iniciopag {
+  background-size: cover;
   background-position: center;
-  font-size: small; 
-  align-items: center;
-  justify-content: center;
-  padding: 10px 50px 30px 60px;
+  font-size: large;
+  padding: 20px 20px 30px 20px;
   margin-right: 5px;
-  
-  
 }
 
 .home-item {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-bottom: 40px;
 }
 
-.profile-toledo {
-  margin-top: 200px;
-  width: 390px;
-  height: 300px;
-  object-fit: cover;
-  margin-right: 10px;
-  margin-bottom: 200px;
-  
+@media (min-width: 500px) {
+  .home-item {
+    flex-direction: row;
+  }
 }
 
-.colegio-a{
-  width: 420px;
-  height: 250px;
+.profile-toledo, .profile, .colegio-a {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
-.profile {
-  margin-top: 200px;
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  justify-content: left;
+@media (min-width: 500px) {
+  .profile-toledo {
+    width: 390px;
+    height: 300px;
+    margin-right: 10px;
+  }
+
+  .colegio-a {
+    width: 420px;
+    height: 250px;
+  }
+
+  .profile {
+    width: 200px;
+    height: 300px;
+    margin-top: 0;
+  }
 }
 
 .profile-image {
   width: 150px;
-  height: 100px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 20px;
 }
 
 .home-text {
-  max-width: 600px;
+  max-width: 100%;
+}
+
+@media (min-width: 500px) {
+  .home-text {
+    max-width: 600px;
+  }
 }
 
 .home-text h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
 
 .home-text p {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.5;
 }
 
@@ -94,15 +102,10 @@ body {
 
 .home-text li {
   margin-bottom: 10px;
-  list-style-type: none
-}
-
-li {
-  list-style-type: none
-
+  list-style-type: none;
 }
 
 .firma {
-  padding-top: 100px;
+  padding-top: 50px;
   color: azure;
 }
